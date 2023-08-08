@@ -1,0 +1,4 @@
+token:
+  id: default
+  expiration: 86400000
+  secret: '{cipher}AQALOwnRuHEgPNMXPcRwrv+xqDaUUvAcZJt3sebevZSfVyeyGS7/nlWlUyMZqu2NVQK7nPLzTn4TWuH1zRejQX5SuuV9+AbVO5Fs+p2e0cfvuWHP47j+/NwGkI4/Ixs67I0vTSWjc2l2km0N0fReF0DGOHH8BHuBBsVGjOtbXKvNMkDBiN6jlLHI/HWBzTrImZfSWzTqbdLpSJsoHrPGs+gwt/EasnZOhrbYbTW1QacMgzVjxDeNgaNs4Wnn/czpXBp1vEHTCZIXTkeLlyeUaI03opkWX/e50rCLHF0aFF967wyaSSW/UBxexgysjAxuaJ5CAOdVu+LIH5S+enOJoLAaElsbP6oteMBqGBYFs0Hfsme19wxtXGYXiRC61rk/GFHEbdY/UyCt2XzRu1xRH/HQ'

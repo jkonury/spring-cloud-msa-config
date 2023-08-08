@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    username: '{cipher}AQDblzDdIK11McCcn6M8a5nCORryXyS51hE18srx7uMo/WApUA4sgmqE4Y9HqgZT23q2MuSWX9dO3ac96TqqwdM9pzrZqYEMxWB1il5BiOYA0jIK1s8IQGIHTJ+Tpx03HIiEA3aT3UKqqdK+g3RXRtQ73EiDT9qB5CGvlmb+edQLQQr8xniL+Ara2Q2ySx+9acDGM5n10q5pFg9ETkiC88pEUMJQZpcD2EpwwpvvkyFOYiEV5w0JuIqvrvaE25M8G7Si+dn1z7ElkvnD32jMtmSWp6cFDDG/CGzaVXysz6SWhjqdhjaxf+n37f3OsLUHbXlVu5DBn6Ax1+BCmRBjqj9y7SVUG8W96YxLhnP+MzAxpMjNrhfhph2ruAGLQpuBFXI='
+    password: '{cipher}AQC5lefnYRuLu21GW9WqdLPYUucVWH3zKzBEbaBLHqqiSeWmcBLLz2vfLRHOff0NL4coDyQf8JkK+N9exaOX23vzU4kY6EDwJHWBIO2sU2QVl72BXOIFhbYb19MWd/xggP3256njtGeojHdHQPfGbNMkBfDxuXDnSCzjYf27nNcPOJ4voG0azA73sRLAdtrrs+h4ppmUgJX+DWdBoe9/Ms2pBogjiKObZoHWFEwX8BsyUWGz01emyqNrQ86JIKEVSarCJWUzcRSRyKc5a9s9Z6ORrk61sVuHD4Q171XQKELXOY7QdRT0neK0vzmKDz8K/4/N6wWi6MyUyY234zz8Pl+iznCUL/Jy3VTxpUzdISFSR1ogZhE5xYqbeBC8C5vx8jw='
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    hikari:
+      driver-class-name: org.h2.Driver
+
+token:
+  id: user-service
+  expiration: 86400000
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
+  exception:
+    orders_is_empty: User's orders is empty

@@ -1,0 +1,3 @@
+token:
+  id: user-service-dev
+  expiration: 86400000
